@@ -68,8 +68,7 @@ src/
    ```
 
 4. **Open in your browser:**
-   - Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
-
+   - Visit https://recipe-ideas-lyart-two.vercel.app/ 
 ---
 
 ## Usage

@@ -72,7 +72,7 @@ export default function App() {
         />
         <button
           onClick={fetchRandom}
-          className="px-4 py-2 bg-green-500 text-white rounded-xl shadow hover:bg-green-600 active:bg-green-700 transition font-semibold text-base mt-3 sm:mt-0 cursor-pointer"
+          className="px-5 py-2 bg-green-500 text-white rounded-xl shadow hover:bg-green-600 active:bg-green-700 transition font-semibold text-base cursor-pointer"
         >
           Random Recipe
         </button>
