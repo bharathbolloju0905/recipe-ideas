@@ -24,11 +24,11 @@ export default function SearchBar({ onSearch, error, onError }) {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Enter an ingredient..."
-          className="border border-gray-300 rounded-xl px-6 py-4 w-full max-w-xl text-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-200 transition"
+          className="border border-gray-300 rounded-xl px-4 py-2 w-full max-w-md text-base shadow-md focus:outline-none focus:ring-2 focus:ring-blue-200 transition"
         />
         <button
           type="submit"
-          className="px-7 py-4 bg-blue-500 text-white rounded-xl shadow hover:bg-blue-600 active:bg-blue-700 transition font-semibold text-lg cursor-pointer"
+          className="px-5 py-2 bg-blue-500 text-white rounded-xl shadow hover:bg-blue-600 active:bg-blue-700 transition font-semibold text-base cursor-pointer"
         >
           Search
         </button>
